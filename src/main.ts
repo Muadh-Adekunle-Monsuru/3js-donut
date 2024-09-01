@@ -55,7 +55,7 @@ function addStar() {
 
 Array(200).fill([]).forEach(addStar);
 
-const boxTexture = new THREE.TextureLoader().load('earth2.jpg');
+const boxTexture = new THREE.TextureLoader().load('/earth2.jpg');
 
 const box = new THREE.Mesh(
 	new THREE.SphereGeometry(5, 32, 16),
